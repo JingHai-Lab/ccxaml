@@ -79,5 +79,26 @@
     </Grid> <!-- ly:MyListItem mainEnd -->
 </StackPanel>
 
-<!-- 调试用刷新按钮 -->
-<local:MyButton Text="刷新" Margin="0,100,0,7" HorizontalAlignment="Left" EventType="刷新主页" Width="100px" Height="100px" />
+<!-- 第三大块：作者与仓库 -->
+<StackPanel Margin="0,0,0,30">
+    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" /> <!-- Header Line -->
+    <TextBlock Text="作者信息 &amp; 源码仓库" Margin="0,1,0,1" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
+    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
+
+    <TextBlock Text="作者：CX_lingyun" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
+        <local:MyListItem EventType="打开网页" EventData="https://gitee.com/AlexOng/ccxaml" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+            <TextBlock Text="点击打开源码仓库1" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+            <TextBlock Text="Gitee - 国内站" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+        </Grid> <!-- ly:MyListItem textEnd -->
+    </Grid> <!-- ly:MyListItem mainEnd -->
+
+    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
+        <local:MyListItem EventType="打开网页" EventData="https://github.com/YUANXINGlingyun/ccxaml" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+            <TextBlock Text="点击打开源码仓库2" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+            <TextBlock Text="Github - 国外站" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+        </Grid> <!-- ly:MyListItem textEnd -->
+    </Grid> <!-- ly:MyListItem mainEnd -->
+</StackPanel>
