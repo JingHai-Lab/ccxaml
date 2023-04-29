@@ -85,7 +85,7 @@
     <TextBlock Text="作者信息 &amp; 源码仓库" Margin="0,1,0,1" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
     <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
 
-    <TextBlock Text="作者：CX_lingyun" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+    <TextBlock Text="作者：CX_lingyun   |   代码开源协议：MIT licence" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
     <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
         <local:MyListItem EventType="打开网页" EventData="https://gitee.com/AlexOng/ccxaml" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
         <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
