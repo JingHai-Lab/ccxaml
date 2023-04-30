@@ -71,8 +71,8 @@
                     <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
                         <local:MyButton Text="点击打开" EventType="打开帮助" EventData="https://gitee.com/AlexOng/ccxaml/raw/master/Helps/Helps.json" Background="{DynamicResource ColorBrush5}" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
                         <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-                            <TextBlock Text="君庭阁游玩帮助" Margin="320,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-                            <TextBlock Text="点击打开帮助页面" Margin="320,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                            <TextBlock Text="君庭阁游玩帮助" Margin="280,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                            <TextBlock Text="点击打开游玩帮助页面" Margin="280,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
                         </Grid> <!-- ly:MyListItem textEnd -->
                     </Grid> <!-- ly:MyListItem mainEnd -->
                 </StackPanel>
