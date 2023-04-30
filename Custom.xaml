@@ -142,6 +142,3 @@
         </Grid> <!-- ly:MyListItem mainEnd -->
     </StackPanel>
 </StackPanel>
-
-<!-- 测试用刷新按钮 -->
-<local:MyButton HorizontalAlignment="Left" Text="刷新" EventType="刷新主页" Width="100px" Height="100px" />
