@@ -64,7 +64,7 @@
                 <StackPanel>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                         <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
-                            <local:MyListItem EventType="启动游戏" EventData="君庭阁 1.19.4|mc521.cc" Margin="10,0,0,0" HorizontalAlignment="Left" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+                            <local:MyListItem EventType="启动游戏" EventData="君庭阁1.19.4|mc521.cc" Margin="10,0,0,0" HorizontalAlignment="Left" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
                             <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
                                 <TextBlock Text="一键启动客户端 + 进入服务器" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
                                 <TextBlock Text="君庭阁 1.19.4 与 mc521.cc" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
