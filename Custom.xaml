@@ -102,6 +102,13 @@
                             <TextBlock Text="跟服务器的地址是一样的~" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
                         </Grid> <!-- ly:MyListItem textEnd -->
                     </Grid> <!-- ly:MyListItem mainEnd -->
+                    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
+                        <local:MyButton Text="点击刷新" EventType="刷新主页" Background="{DynamicResource ColorBrush5}" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
+                        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                            <TextBlock Text="点击刷新主页" Margin="280,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                            <TextBlock Text="如果主页显示异常或延迟，可点击刷新" Margin="280,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                        </Grid> <!-- ly:MyListItem textEnd -->
+                    </Grid> <!-- ly:MyListItem mainEnd -->
                 </StackPanel>
             </StackPanel>
         </Grid>
