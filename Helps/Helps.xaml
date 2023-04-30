@@ -35,3 +35,4 @@
         <TextBlock Text="换皮肤教程" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
     </Grid> <!-- ly:MyListItem textEnd -->
 </Grid> <!-- ly:MyListItem mainEnd -->
+
