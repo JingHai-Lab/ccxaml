@@ -40,7 +40,7 @@
 <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
     <local:MyListItem EventType="打开网页" EventData="https://jinshuju.net/f/oH1wtJ" Margin="10,0,0,0" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
     <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-        <TextBlock Text="点击打开表单页面" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-        <TextBlock Text="如果有问题无法解决，可填写表单申请帮助" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+        <TextBlock Text="点击打开表单页面" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+        <TextBlock Text="如果有问题无法解决，可填写表单申请帮助" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
     </Grid> <!-- ly:MyListItem textEnd -->
 </Grid> <!-- ly:MyListItem mainEnd -->
