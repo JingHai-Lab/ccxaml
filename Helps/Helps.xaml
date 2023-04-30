@@ -37,4 +37,10 @@
 </Grid> <!-- ly:MyListItem mainEnd -->
 
 <TextBlock Text="若还有其他问题，请移步下方表单进行预定帮助" Margin="0,10,0,0" FontSize="20" Foreground="{DynamicResource ColorBrush3}" HorizontalAlignment="Center" />
-<local:MyButton Text="点击打开" EventType="打开网页" EventData="https://jinshuju.net/f/oH1wtJ" Background="{DynamicResource ColorBrush5}" Width="100" Height="50px" Margin="0,5,0,0" HorizontalAlignment="Center" />
+<Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
+    <local:MyListItem EventType="打开网页" EventData="https://jinshuju.net/f/oH1wtJ" Margin="10,0,0,0" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+    <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+        <TextBlock Text="点击打开表单页面" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+        <TextBlock Text="如果有问题无法解决，可填写表单申请帮助" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+    </Grid> <!-- ly:MyListItem textEnd -->
+</Grid> <!-- ly:MyListItem mainEnd -->
