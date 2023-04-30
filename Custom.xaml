@@ -25,116 +25,123 @@
 -->
 
 <!-- XML mainCode -->
-<!-- 第一大块：服务器内容 -->
-<StackPanel Margin="0,0,0,30">
-    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" /> <!-- Header Line -->
-    <TextBlock Text="服 务 器 公 告" Margin="0,1,0,1" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
-    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
+<TextBlock Height="3" Background="#C0F5F6FB"/> <!-- Top Background -->
+<StackPanel Background="#C0F5F6FB">
+    <!-- 第一大块：服务器内容 -->
+    <StackPanel Margin="0,0,0,30">
+        <Line X1="0" X2="100" Margin="3,0,3,0" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" /> <!-- Header Line -->
+        <TextBlock Text="服 务 器 公 告" Margin="0,1,0,1" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
+        <Line X1="0" X2="100" Margin="3,0,3,0" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
 
-    <TextBlock Text="本服IP：mc521.cc" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="君庭阁条规 【新人必看】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="本服属于高度自由服务器,在游戏内发生的一些小问题，如以下事件 都属于个人责任 服主不会处理" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="【双方因为一些琐事或别的原因引起吵架】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="【未圈地导致家里被熊或被有权限的人熊家】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="【非绑定武器不小心丢失,或者误丢出去被他人捡走】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="【被其他玩家正常击杀,或允许的区域击杀】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="⚠️ 本服不能违反的规则，重则永久封号 ⚠️" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="#FF0000" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="【禁止在安全区内.也就是我创建的领地内,出现杀人情况】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="【禁止在本服宣传他人服务器,或者辱骂氪金的都是傻逼之类的话】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="ℹ️ 关于丢东西说明 ℹ️" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="（1）因服务器原因卡没物品的,请详细说明卡掉过程,以及卡丢时间,然后向服主反馈" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="（2）禁止跟鲨臂一样说什么 【我东西没了 我东西卡掉了】 之类没脑子的话" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="（3）因个人原因丢失的物品【例如丢进岩浆等】一律不进行补偿 请手动绑定武器" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <TextBlock Text="服主一天很忙,如果没回消息,很容易没注意某个消息.请过会再发一遍消息给服主！" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-</StackPanel>
-
-<!-- 第二&三大块：快捷按钮 & 帮助 -->
-<StackPanel Margin="0,0,0,30">
-    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" /> <!-- Header Line -->
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-        <TextBlock Text="快速启动 &amp; 一起畅聊" Margin="300,1,0,1" HorizontalAlignment="Left" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
-        <TextBlock Text="获得帮助" Margin="690,1,0,1" HorizontalAlignment="Left" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message 2 -->
+        <TextBlock Text="本服IP：mc521.cc" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="君庭阁条规 【新人必看】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="本服属于高度自由服务器,在游戏内发生的一些小问题，如以下事件 都属于个人责任 服主不会处理" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="【双方因为一些琐事或别的原因引起吵架】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="【未圈地导致家里被熊或被有权限的人熊家】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="【非绑定武器不小心丢失,或者误丢出去被他人捡走】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="【被其他玩家正常击杀,或允许的区域击杀】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="⚠️ 本服不能违反的规则，重则永久封号 ⚠️" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="#FF0000" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="【禁止在安全区内.也就是我创建的领地内,出现杀人情况】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="【禁止在本服宣传他人服务器,或者辱骂氪金的都是傻逼之类的话】" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="ℹ️ 关于丢东西说明 ℹ️" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="（1）因服务器原因卡没物品的,请详细说明卡掉过程,以及卡丢时间,然后向服主反馈" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="（2）禁止跟鲨臂一样说什么 【我东西没了 我东西卡掉了】 之类没脑子的话" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="（3）因个人原因丢失的物品【例如丢进岩浆等】一律不进行补偿 请手动绑定武器" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        <TextBlock Text="服主一天很忙,如果没回消息,很容易没注意某个消息.请过会再发一遍消息给服主！" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
     </StackPanel>
-    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
-    <Grid>
-        <Line X1="762" Y1="10" X2="762" Y2="159" Stroke="{DynamicResource ColorBrush5}" StrokeThickness="2.0" StrokeDashArray="5,2"/> <!-- Dash Line -->
-        <Grid Background="Transparent" Panel.ZIndex="-1">
-            <StackPanel>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
-                        <local:MyListItem EventType="启动游戏" EventData="君庭阁 1.19.4|mc521.cc" Margin="10,0,0,0" HorizontalAlignment="Left" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
-                        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-                            <TextBlock Text="一键启动客户端 + 进入服务器" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-                            <TextBlock Text="君庭阁 1.19.4 与 mc521.cc" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-                        </Grid> <!-- ly:MyListItem textEnd -->
-                    </Grid> <!-- ly:MyListItem mainEnd -->
-                    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
-                        <local:MyButton Text="点击打开" EventType="打开帮助" EventData="https://gitee.com/AlexOng/ccxaml/raw/master/Helps/Helps.json" Background="{DynamicResource ColorBrush5}" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
-                        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-                            <TextBlock Text="君庭阁游玩帮助" Margin="280,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-                            <TextBlock Text="点击打开游玩帮助页面" Margin="280,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-                        </Grid> <!-- ly:MyListItem textEnd -->
-                    </Grid> <!-- ly:MyListItem mainEnd -->
-                </StackPanel>
 
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
-                        <local:MyListItem EventType="打开网页" EventData="http://qm.qq.com/cgi-bin/qm/qr?_wv&#61;1027&amp;k&#61;pXEfHMSP-48O06b-hjVr93Jh0Cg6WUbF&amp;authKey&#61;8PO6U9DE4aLgBwsGjcHzB4DXm3zgS5iNmyUIsmvvZXBOJmwPI4x5nnlvw2LouxXF&amp;noverify&#61;0&amp;group_code&#61;5587557" Margin="10,0,0,0" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
-                        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-                            <TextBlock Text="点击加入 QQ 群" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-                            <TextBlock Text="群号：5587557" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-                        </Grid> <!-- ly:MyListItem textEnd -->
-                    </Grid> <!-- ly:MyListItem mainEnd -->
-                    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
-                        <local:MyButton Text="点击打开" EventType="打开网页" EventData="https://jinshuju.net/f/oH1wtJ" Background="{DynamicResource ColorBrush5}" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
-                        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-                            <TextBlock Text="打开帮助预定表单" Margin="280,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-                            <TextBlock Text="如果有问题无法解决，可填写表单申请帮助" Margin="280,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-                        </Grid> <!-- ly:MyListItem textEnd -->
-                    </Grid> <!-- ly:MyListItem mainEnd -->
-                </StackPanel>
+    <!-- 第二&三大块：快捷按钮 & 帮助 -->
+    <StackPanel Margin="0,0,0,30" >
+        <Line X1="0" X2="100" Margin="3,0,3,0" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" /> <!-- Header Line -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <TextBlock Text="快速启动 &amp; 一起畅聊" Margin="300,1,0,1" HorizontalAlignment="Left" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
+            <TextBlock Text="获得帮助" Margin="690,1,0,1" HorizontalAlignment="Left" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message 2 -->
+        </StackPanel>
+        <Line X1="0" X2="100" Margin="3,0,3,0" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
+        <Grid>
+            <Line X1="762" Y1="10" X2="762" Y2="159" Stroke="{DynamicResource ColorBrush5}" StrokeThickness="2.0" StrokeDashArray="5,2"/> <!-- Dash Line -->
+            <Grid Background="Transparent" Panel.ZIndex="-1">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
+                            <local:MyListItem EventType="启动游戏" EventData="君庭阁 1.19.4|mc521.cc" Margin="10,0,0,0" HorizontalAlignment="Left" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+                            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                                <TextBlock Text="一键启动客户端 + 进入服务器" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                                <TextBlock Text="君庭阁 1.19.4 与 mc521.cc" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                            </Grid> <!-- ly:MyListItem textEnd -->
+                        </Grid> <!-- ly:MyListItem mainEnd -->
+                        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
+                            <local:MyButton Text="点击打开" EventType="打开帮助" EventData="https://gitee.com/AlexOng/ccxaml/raw/master/Helps/Helps.json" Background="#00FFFFFF" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
+                            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                                <TextBlock Text="君庭阁游玩帮助" Margin="320,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                                <TextBlock Text="点击打开帮助页面" Margin="320,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                            </Grid> <!-- ly:MyListItem textEnd -->
+                        </Grid> <!-- ly:MyListItem mainEnd -->
+                    </StackPanel>
 
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
-                        <local:MyListItem EventType="打开网页" EventData="http://mc521.cc" Margin="10,0,0,0" Type="Clickable" Width="700" /> <!-- ly:MyListItem buttonPart -->
-                        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-                            <TextBlock Text="点击打开官网" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-                            <TextBlock Text="跟服务器的地址是一样的~" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-                        </Grid> <!-- ly:MyListItem textEnd -->
-                    </Grid> <!-- ly:MyListItem mainEnd -->
-                    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
-                        <local:MyButton Text="点击刷新" EventType="刷新主页" Background="{DynamicResource ColorBrush5}" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
-                        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-                            <TextBlock Text="点击刷新主页" Margin="280,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-                            <TextBlock Text="如果主页显示异常或延迟，可点击刷新" Margin="280,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-                        </Grid> <!-- ly:MyListItem textEnd -->
-                    </Grid> <!-- ly:MyListItem mainEnd -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
+                            <local:MyListItem EventType="打开网页" EventData="http://qm.qq.com/cgi-bin/qm/qr?_wv&#61;1027&amp;k&#61;pXEfHMSP-48O06b-hjVr93Jh0Cg6WUbF&amp;authKey&#61;8PO6U9DE4aLgBwsGjcHzB4DXm3zgS5iNmyUIsmvvZXBOJmwPI4x5nnlvw2LouxXF&amp;noverify&#61;0&amp;group_code&#61;5587557" Margin="10,0,0,0" Width="700" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+                            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                                <TextBlock Text="点击加入 QQ 群" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                                <TextBlock Text="群号：5587557" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                            </Grid> <!-- ly:MyListItem textEnd -->
+                        </Grid> <!-- ly:MyListItem mainEnd -->
+                        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
+                            <local:MyButton Text="点击打开" EventType="打开网页" EventData="https://jinshuju.net/f/oH1wtJ" Background="#00FFFFFF" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
+                            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                                <TextBlock Text="打开帮助预定表单" Margin="280,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                                <TextBlock Text="如果有问题无法解决，可填写表单申请帮助" Margin="280,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                            </Grid> <!-- ly:MyListItem textEnd -->
+                        </Grid> <!-- ly:MyListItem mainEnd -->
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 2 -->
+                            <local:MyListItem EventType="打开网页" EventData="http://mc521.cc" Margin="10,0,0,0" Type="Clickable" Width="700" /> <!-- ly:MyListItem buttonPart -->
+                            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                                <TextBlock Text="点击打开官网" Margin="270,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                                <TextBlock Text="跟服务器的地址是一样的~" Margin="270,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                            </Grid> <!-- ly:MyListItem textEnd -->
+                        </Grid> <!-- ly:MyListItem mainEnd -->
+                        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart --> <!-- Area 3 -->
+                            <local:MyButton Text="点击刷新" EventType="刷新主页" Background="#00FFFFFF" Width="100" Margin="540,0,0,0" HorizontalAlignment="Left" /> <!-- ly:MyListItem buttonPart -->
+                            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                                <TextBlock Text="点击刷新主页" Margin="280,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                                <TextBlock Text="如果主页显示异常或延迟，可点击刷新" Margin="280,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+                            </Grid> <!-- ly:MyListItem textEnd -->
+                        </Grid> <!-- ly:MyListItem mainEnd -->
+                    </StackPanel>
                 </StackPanel>
-            </StackPanel>
+            </Grid>
         </Grid>
-    </Grid>
+    </StackPanel>
+
+    <!-- 第四大块：作者与仓库 -->
+    <StackPanel Margin="0,0,0,3">
+        <Line X1="0" X2="100" Margin="3,0,3,0" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" /> <!-- Header Line -->
+        <TextBlock Text="作者信息 &amp; 源码仓库" Margin="0,1,0,1" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
+        <Line X1="0" X2="100" Margin="3,0,3,0" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
+
+        <TextBlock Text="作者：CX_lingyun     开源协议：MIT licence" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
+        
+        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
+            <local:MyListItem EventType="打开网页" EventData="https://gitee.com/AlexOng/ccxaml" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                <TextBlock Text="点击打开源码仓库1" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                <TextBlock Text="Gitee - 国内站" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+            </Grid> <!-- ly:MyListItem textEnd -->
+        </Grid> <!-- ly:MyListItem mainEnd -->
+
+        <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
+            <local:MyListItem EventType="打开网页" EventData="https://github.com/YUANXINGlingyun/ccxaml" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+            <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
+                <TextBlock Text="点击打开源码仓库2" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
+                <TextBlock Text="Github - 国外站" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
+            </Grid> <!-- ly:MyListItem textEnd -->
+        </Grid> <!-- ly:MyListItem mainEnd -->
+    </StackPanel>
 </StackPanel>
 
-<!-- 第四大块：作者与仓库 -->
-<StackPanel Margin="0,0,0,30">
-    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="0" /> <!-- Header Line -->
-    <TextBlock Text="作者信息 &amp; 源码仓库" Margin="0,1,0,1" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Header Message -->
-    <Line X1="0" X2="100" Stroke="{DynamicResource ColorBrush3}" StrokeThickness="2.0" HorizontalAlignment="Center" Stretch="Fill" Grid.Column="2" /> <!-- Header Line -->
-
-    <TextBlock Text="作者：CX_lingyun   |   代码开源协议：MIT licence" Margin="0,5,0,0" HorizontalAlignment="Center" FontSize="16" Foreground="{DynamicResource ColorBrush3}" Grid.Column="1" VerticalAlignment="Center" /> <!-- Main Message -->
-    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
-        <local:MyListItem EventType="打开网页" EventData="https://gitee.com/AlexOng/ccxaml" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
-        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-            <TextBlock Text="点击打开源码仓库1" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-            <TextBlock Text="Gitee - 国内站" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-        </Grid> <!-- ly:MyListItem textEnd -->
-    </Grid> <!-- ly:MyListItem mainEnd -->
-
-    <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
-        <local:MyListItem EventType="打开网页" EventData="https://github.com/YUANXINGlingyun/ccxaml" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
-        <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
-            <TextBlock Text="点击打开源码仓库2" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
-            <TextBlock Text="Github - 国外站" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
-        </Grid> <!-- ly:MyListItem textEnd -->
-    </Grid> <!-- ly:MyListItem mainEnd -->
-</StackPanel>
+<!-- 测试用刷新按钮 -->
+<local:MyButton HorizontalAlignment="Left" Text="刷新" EventType="刷新主页" Width="100px" Height="100px" />
