@@ -5,7 +5,7 @@
 <local:MyHint Text="新手游玩教程暂时无法使用，因为正在等待最新的帮助视频地址" Margin="0,10,0,0" IsWarn="False" />
 
 <Grid Margin="0,5,0,0"> <!-- ly:MyListItem mainStart -->
-    <local:MyListItem EventType="打开网页" EventData="" Type="Clickable" /> <!-- ly:MyListItem buttonPart -->
+    <local:MyListItem EventType="打开网页" EventData=""/> <!-- ly:MyListItem buttonPart -->
     <Grid Background="Transparent" Panel.ZIndex="-1"> <!-- ly:MyListItem textStart -->
         <TextBlock Text="帮助 ➀" Margin="680,5,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="14" HorizontalAlignment="Left" /> <!-- ly:MyListItem titlePart -->
         <TextBlock Text="新手游玩教程" Margin="680,23,0,0" FontSize="12" Foreground="#788495" HorizontalAlignment="Left" /> <!-- ly:MyListItem infoPart -->
